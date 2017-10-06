@@ -1,5 +1,5 @@
-\name{DW-lasso}
-\alias{DW-lasso}
+\name{DWLasso}
+\alias{DWLasso}
 \alias{DWLasso}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
@@ -50,7 +50,7 @@ The value of the penalty parameter controlling the overall sparsity}
 
 
 \references{
-1. Nurgazy Sulaimanov, Sunil Kumar, Frederic Burdet, Mark Ibberson, Marco Pagni, Heinz Koeppl. Inferring hub networks using weighted degree Lasso. Submitted to Bioinformatics.
+1. Nurgazy Sulaimanov, Sunil Kumar, Frederic Burdet, Mark Ibberson, Marco Pagni, Heinz Koeppl. Inferring hub networks using weighted degree Lasso. http://arxiv.org/abs/1710.01912.
 
 2. Jerome Friedman, Trevor Hastie, Robert Tibshirani (2010). Regularization Paths for Generalized Linear Models via Coordinate Descent. Journal of Statistical Software, 33(1), 1-22. URL http://www.jstatsoft.org/v33/i01/.
 
@@ -91,8 +91,10 @@ out <- rmvnorm(n,rep(0,p),solve(Theta))
 # Standardize the data
 dat <- scale(out)
 
-# Run DW-lasso
+# Run DWLasso
 out.p <- DWLasso(dat, lambda1 = 0.6, lambda2 = 10)
+
+# print out a summary of the output
 summary(out.p)
 }
 

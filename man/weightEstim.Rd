@@ -33,7 +33,7 @@ Tolerance
 Estimated weight vector from the last iteration at which the algorithm converges}
 }
 \references{
-Nurgazy Sulaimanov, Sunil Kumar, Frederic Burdet, Mark Ibberson, Marco Pagni, Heinz Koeppl. Inferring hub networks using weighted degree Lasso. Submitted to Bioinformatics.
+Nurgazy Sulaimanov, Sunil Kumar, Frederic Burdet, Mark Ibberson, Marco Pagni, Heinz Koeppl. Inferring hub networks using weighted degree Lasso. http://arxiv.org/abs/1710.01912.
 }
 \author{
 Nurgazy Sulaimanov, Sunil Kumar and Heinz Koeppl
